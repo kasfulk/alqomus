@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo '🏗️👷 Styling, testing and building your project before committing'
+# echo '🏗️👷 Styling, testing and building your project before committing'
 
 # Check ESLint Standards
 # npm run lint ||
@@ -14,5 +14,5 @@ echo '🏗️👷 Styling, testing and building your project before committing'
 # Jika test nya sudah oke, maka perubahan akan di commit
 echo '🎉🎉🎉🎉 Yeayy, there is no error in your code... I am committing this now. ✨🚀🏄‍♂️🍻'
 
-npx lint-staged
+# npx lint-staged
 
