@@ -5,7 +5,7 @@
     "build": "prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "prepare": "husky install",
-    "vercel-build": "prisma generate && next build"
+    "vercel-build": "cp -rf ./prisma/alqomus.db /var/task/node_modules/.prisma/client/./alqomus.db && prisma generate && next build"
   },
   "dependencies": {
     "@prisma/client": "^3.12.0",
